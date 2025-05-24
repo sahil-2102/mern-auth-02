@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon api/index.js",
-    "start":"node api/index.js"
+    "start": "node api/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
   "homepage": "https://github.com/sahil-2102/mern-auth-02#readme",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "mongoose": "^8.15.0",
     "nodemon": "^3.1.10"
   }
 }
