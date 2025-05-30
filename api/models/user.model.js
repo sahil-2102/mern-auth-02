@@ -14,6 +14,10 @@ const userSchema = new mongoose.Schema(
         password: {
             type: String,
             required: true
+        },
+        profilePicture: {
+            type: String,
+            default: "https://play-lh.googleusercontent.com/LeX880ebGwSM8Ai_zukSE83vLsyUEUePcPVsMJr2p8H3TUYwNg-2J_dVMdaVhfv1cHg=w240-h480-rw",
         }
     },{timestamps: true}
 );
